@@ -11,14 +11,14 @@
 }
 
 body {
-  background-color: #393E46;
+  background-color: black;
 }
 
 h1 {
-  margin: 30px;
+  margin: 15px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 6rem;
   color: #4ECCA3;
 }
 
@@ -38,4 +38,19 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+button {
+    color: #1cc49d;
+  background-color: #1b2f31;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  width: 8em;
+  font-size: large;
+  font-weight: 600;
+  text-align: center;
+  padding: auto;
+  margin: auto;
 }
