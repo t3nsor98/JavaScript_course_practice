@@ -13,5 +13,10 @@ body {
     background-color: aquamarine;
     padding: 20px;
     border-radius: 30px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: cornflowerblue;
     box-shadow: 0 10px 10px rgba(100, 255, 255, 0.7);
+
 }
