@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h1 {
+    text-transform: capitalize;
+    padding: 30px;
+}
+.btn{
+    text-transform: uppercase;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+    color: chocolate;
+    border-radius: 15px;
+    border-style: none;
+
+}
+.btn:hover{
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.7);
+}
+.btn:active{
+    background-color: whitesmoke;
+}
